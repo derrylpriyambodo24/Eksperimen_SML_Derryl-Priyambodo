@@ -30,5 +30,6 @@ jobs:
     # 4. Jalankan script training
     # Pastikan file CSV ada di repository kamu!
     - name: Run Model Training
+      working-directory: ./preprocessing
       # Pastikan nama file sesuai: modelling.py
       run: python modelling.py
